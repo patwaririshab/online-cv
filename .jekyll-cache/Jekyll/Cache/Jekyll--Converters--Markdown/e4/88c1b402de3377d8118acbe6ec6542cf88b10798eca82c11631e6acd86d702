@@ -1,0 +1,8 @@
+I"U<p>Course project where I had to write a Verilog program to visualize audio signals on a Basys 3 FPGA</p>
+
+<p>Key features:</p>
+<ul>
+  <li>Audio Frequency Detector with an accuracy of +- 1Hz between 400 Hz and 10 kHz</li>
+  <li>FPGA rendition of the Flappy Bird game where bird’s jump is controlled by amplitude of audio signal</li>
+</ul>
+:ET

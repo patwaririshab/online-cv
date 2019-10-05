@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6  {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 a {
@@ -55,7 +55,7 @@ p {
         color: #fff;
     }
     .name {
-        font-size: 32px;
+        font-size: 30px;
         font-weight: 900;
         margin-top: 0;
         margin-bottom: 10px;
@@ -153,12 +153,13 @@ p {
     }
 }
 
+
 .main-wrapper {
     background: #fff;
     padding: 60px;
     padding-right: 340px;
     .section-title {
-        text-transform: uppercase;
+       text-transform: uppercase;
         font-size: 20px;
         font-weight: 500;
         color: darken($theme-color, 15%);
@@ -167,7 +168,7 @@ p {
         margin-bottom: 20px;
     }
     .section {
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
 
     .experiences-section, .educations-section {
@@ -182,10 +183,10 @@ p {
     }
     .job-title, .degree {
         color: $text-color;
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 0;
-        margin-bottom: 0;
-        font-weight: 500;
+        margin-bottom: 1;
+        font-weight: 700;
     }
     .time {
         position: absolute;
@@ -196,6 +197,11 @@ p {
     .company, .university {
         margin-bottom: 10px;
         color: $text-grey;
+    }
+
+    .details {
+        margin-bottom: 20px;
+        text-align: justify
     }
 
     .project-title {
@@ -257,7 +263,9 @@ p {
 }
 
 
-
+.summary {
+    text-align: justify;
+}
 
 .footer {
     padding-top: 30px;
